@@ -3,12 +3,12 @@ exports.seed = function(knex, Promise) {
     {
       project_name: "Test",
       project_description: "this is a test project",
-      completed: 0
+      complete: 0
     },
     {
       project_name: "Test 2",
       project_description: "This is another test",
-      completed: 0
+      complete: 0
     }
   ]);
 }

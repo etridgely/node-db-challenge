@@ -1,5 +1,5 @@
 exports.seed = function(knex) {
-  return knex("projects_resources").insert([
+  return knex("project_resources").insert([
 
     {
       project_id: 1,
